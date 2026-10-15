@@ -1,6 +1,6 @@
-# PrEP Reach in the Bronx — Multipage Website
+# Bronx PrEPreach
 
-This repository contains a static, multipage research website built with HTML, CSS, and JavaScript.
+This repository contains materials for our multipage research website built with HTML, CSS, and JavaScript.
 
 ## Publish on GitHub Pages
 
