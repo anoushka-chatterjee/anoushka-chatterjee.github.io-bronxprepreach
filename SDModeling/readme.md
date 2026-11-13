@@ -1,1 +1,1 @@
-This folder includes current SD models.
+This folder holds current and old versions of our system dynamics model(s).
