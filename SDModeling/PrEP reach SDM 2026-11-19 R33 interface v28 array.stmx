@@ -2795,7 +2795,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
 				<text_box font_weight="bold" font_size="18pt" x="830.912" y="102.134" width="188.462" height="26.4615">Intervention Domains</text_box>
 				<text_box font_weight="bold" font_color="white" font_size="36pt" appearance="transparent" x="44.2647" y="10.1176" width="474.118" height="58">Trust and Acceptability</text_box>
 			</view>
-			<view isee:template_view="template:8" background="white" page_width="1066" page_height="600" isee:scroll_y="104.348" zoom="115" type="interface">
+			<view isee:template_view="template:8" background="white" page_width="1066" page_height="600" isee:scroll_y="52.1739" zoom="115" type="interface">
 				<style>
 					<isee:stacked_container item_spacing="0" corner_radius="4" selected_item_color="black" selected_item_background="white" item_background="#DDDDDD" transparent_bg="false"/>
 				</style>
@@ -3524,7 +3524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						</graph>
 					</stacked_container>
 				</view>
-				<view isee:template_view="template:3" isee:name="HIV Prevalence and Incidence" background="white" page_width="1066" page_height="600" isee:scroll_x="27.8261" isee:scroll_y="156.522" zoom="115" type="template">
+				<view isee:template_view="template:3" isee:name="HIV Prevalence and Incidence" background="white" page_width="1066" page_height="600" isee:scroll_y="104.348" zoom="115" type="template">
 					<style>
 						<isee:stacked_container item_spacing="0" corner_radius="4" selected_item_color="black" selected_item_background="white" item_background="#DDDDDD" transparent_bg="false"/>
 					</style>
@@ -3637,27 +3637,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						</graph>
 					</stacked_container>
 					<stacked_container x="32.059" y="342.647" width="361.429" height="250" isee:appearance="dropdown">
-						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Cis Women" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Cis Women" isee:fill_intensity="0.1" isee:allow_zero_axis="true" isee:rescale_min_max="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
 							<plot color="blue" isee:keep_zero_visible="true" pen_width="2" index="0" show_y_axis="true">
 								<entity name="Impact_Ratio_HIV_incidence_group_to_Bronx[Cisgender_women]"/>
 							</plot>
 						</graph>
-						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Trans Women" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Trans Women" isee:fill_intensity="0.1" isee:allow_zero_axis="true" isee:rescale_min_max="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
 							<plot color="blue" isee:keep_zero_visible="true" pen_width="2" index="0" show_y_axis="true">
 								<entity name="Impact_Ratio_HIV_incidence_group_to_Bronx[Trans_women]"/>
 							</plot>
 						</graph>
-						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="MSM" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="MSM" isee:fill_intensity="0.1" isee:allow_zero_axis="true" isee:rescale_min_max="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
 							<plot color="blue" isee:keep_zero_visible="true" pen_width="2" index="0" show_y_axis="true">
 								<entity name="Impact_Ratio_HIV_incidence_group_to_Bronx[MSM]"/>
 							</plot>
 						</graph>
-						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Total Bronx Population" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<graph font_weight="bold" width="361.429" height="250" comparative="true" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Total Bronx Population" isee:fill_intensity="0.1" isee:allow_zero_axis="true" isee:rescale_min_max="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
 							<plot color="#008F44" isee:keep_zero_visible="true" pen_width="2" index="0" show_y_axis="true">
 								<entity name="Impact_Ratio_HIV_incidence_group_to_Bronx[Bronx]"/>
 							</plot>
 						</graph>
-						<graph font_weight="bold" width="361.429" height="250" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Comparative Groups Current Run" isee:fill_intensity="0.1" isee:allow_zero_axis="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
+						<graph font_weight="bold" width="361.429" height="250" type="time_series" show_grid="false" isee:tick_type="none" include_units_in_legend="false" plot_numbers="false" isee:label_pie_slices="false" isee:show_pie_borders="true" num_x_grid_lines="0" num_y_grid_lines="0" num_x_labels="5" num_y_labels="5" title="Impact Ratio HIV Incidence" isee:page_title="Comparative Groups Current Run" isee:fill_intensity="0.1" isee:allow_zero_axis="true" isee:rescale_min_max="true" left_axis_multi_scale="false" left_axis_auto_scale="true" left_include_units="true" right_axis_multi_scale="false" right_axis_auto_scale="true" right_include_units="true">
 							<plot color="blue" isee:keep_zero_visible="true" pen_width="2" index="0" show_y_axis="true">
 								<entity name="Impact_Ratio_HIV_incidence_group_to_Bronx[Cisgender_women]"/>
 							</plot>
@@ -3683,9 +3683,9 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						<isee:model_view x="0" y="0" width="1066" height="600" isee:locked="true" zoom="1" center_x="533" center_y="300" locked_view="true" transparent="true" use_visible_list="true" show_ltm_table="false" include_equation="true" include_units="true">
 							<model name="Top-Level"/>
 							<isee:visible_list>
-								<item uid="21"/>
-								<entity name="At_risk_not_on_PrEP"/>
 								<item uid="23"/>
+								<entity name="At_risk_not_on_PrEP"/>
+								<item uid="21"/>
 							</isee:visible_list>
 							<isee:highlight_list/>
 						</isee:model_view>
@@ -3717,17 +3717,17 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						<isee:model_view x="0" y="0" width="1066" height="600" isee:locked="true" zoom="1" center_x="533" center_y="300" locked_view="true" transparent="true" use_visible_list="true" show_ltm_table="false" include_equation="true" include_units="true">
 							<model name="Top-Level"/>
 							<isee:visible_list>
-								<entity name="Population_turnover_rate"/>
-								<entity name="Frac_persons_newly_at_risk_per_month"/>
-								<item uid="23"/>
-								<item uid="1"/>
-								<entity name="At_risk_not_on_PrEP"/>
 								<item uid="21"/>
+								<entity name="At_risk_not_on_PrEP"/>
+								<item uid="1"/>
+								<item uid="23"/>
+								<entity name="Frac_persons_newly_at_risk_per_month"/>
+								<entity name="Population_turnover_rate"/>
 							</isee:visible_list>
 							<isee:highlight_list>
-								<entity name="Frac_persons_newly_at_risk_per_month"/>
-								<item uid="1"/>
 								<entity name="Population_turnover_rate"/>
+								<item uid="1"/>
+								<entity name="Frac_persons_newly_at_risk_per_month"/>
 							</isee:highlight_list>
 						</isee:model_view>
 						<button z_index="1" label="" isee:tooltip="" x="1027" y="63">
@@ -3758,46 +3758,46 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						<isee:model_view x="0" y="0" width="1066" height="600" isee:locked="true" zoom="1" center_x="533" center_y="300" locked_view="true" use_visible_list="true" show_ltm_table="false" include_equation="true" include_units="true">
 							<model name="Top-Level"/>
 							<isee:visible_list>
-								<item uid="13"/>
-								<item uid="15"/>
-								<entity name="Seeking_PrEP_Rate"/>
-								<entity name="Fractional_PrEP_prevalence"/>
-								<entity name="PrEP_prescription_renewal_rate"/>
-								<entity name="Initiators_quit_rate"/>
-								<item uid="3"/>
-								<entity name="PrEP_initiators"/>
-								<item uid="14"/>
-								<item uid="23"/>
-								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
-								<entity name="At_risk_not_on_PrEP"/>
-								<item uid="1"/>
-								<entity name="Frac_persons_newly_at_risk_per_month"/>
-								<item uid="2"/>
-								<item uid="5"/>
-								<item uid="20"/>
-								<entity name="Bronx_PrEP_Target_Population"/>
-								<entity name="PrEP_quitters"/>
-								<entity name="Population_turnover_rate"/>
-								<item uid="17"/>
 								<item uid="21"/>
+								<item uid="17"/>
+								<entity name="Population_turnover_rate"/>
+								<item uid="5"/>
+								<item uid="2"/>
+								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
+								<entity name="Frac_persons_newly_at_risk_per_month"/>
+								<item uid="20"/>
+								<item uid="23"/>
+								<item uid="14"/>
+								<entity name="PrEP_quitters"/>
+								<entity name="PrEP_initiators"/>
+								<item uid="3"/>
+								<entity name="Initiators_quit_rate"/>
+								<entity name="At_risk_not_on_PrEP"/>
+								<entity name="Fractional_PrEP_prevalence"/>
+								<entity name="Seeking_PrEP_Rate"/>
+								<item uid="1"/>
+								<item uid="15"/>
+								<entity name="PrEP_prescription_renewal_rate"/>
+								<entity name="Bronx_PrEP_Target_Population"/>
+								<item uid="13"/>
 							</isee:visible_list>
 							<isee:highlight_list>
-								<entity name="Fractional_PrEP_prevalence"/>
-								<entity name="PrEP_initiators"/>
-								<item uid="14"/>
-								<entity name="Initiators_quit_rate"/>
-								<item uid="20"/>
-								<entity name="PrEP_quitters"/>
-								<entity name="Bronx_PrEP_Target_Population"/>
-								<entity name="PrEP_prescription_renewal_rate"/>
-								<entity name="Seeking_PrEP_Rate"/>
-								<item uid="15"/>
-								<item uid="13"/>
-								<item uid="17"/>
-								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
-								<item uid="3"/>
-								<item uid="2"/>
 								<item uid="5"/>
+								<item uid="2"/>
+								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
+								<item uid="17"/>
+								<item uid="15"/>
+								<entity name="Seeking_PrEP_Rate"/>
+								<item uid="13"/>
+								<entity name="PrEP_prescription_renewal_rate"/>
+								<entity name="Bronx_PrEP_Target_Population"/>
+								<item uid="20"/>
+								<item uid="3"/>
+								<entity name="Initiators_quit_rate"/>
+								<item uid="14"/>
+								<entity name="PrEP_quitters"/>
+								<entity name="PrEP_initiators"/>
+								<entity name="Fractional_PrEP_prevalence"/>
 							</isee:highlight_list>
 						</isee:model_view>
 						<button z_index="1" label="" isee:tooltip="" x="1024" y="62">
@@ -3828,42 +3828,42 @@ li.checked::marker { content: &quot;\2612&quot;; }
 						<isee:model_view x="0" y="0" width="1066" height="600" isee:locked="true" zoom="1" center_x="533" center_y="300" locked_view="true" transparent="true" use_visible_list="true" show_ltm_table="false" include_equation="true" include_units="true">
 							<model name="Top-Level"/>
 							<isee:visible_list>
-								<item uid="3"/>
-								<entity name="Avg_time_to_permanently_stop_using_PrEP"/>
-								<item uid="11"/>
-								<entity name="Seeking_PrEP_Rate"/>
-								<item uid="18"/>
-								<item uid="13"/>
-								<item uid="17"/>
-								<entity name="Fractional_PrEP_prevalence"/>
-								<entity name="PrEP_prescription_renewal_rate"/>
-								<entity name="Sustainers_permanently_stopping_use_of_PrEP_rate"/>
-								<item uid="14"/>
-								<entity name="PrEP_initiators"/>
-								<item uid="15"/>
-								<item uid="4"/>
-								<item uid="21"/>
-								<entity name="Initiators_quit_rate"/>
-								<item uid="23"/>
-								<entity name="PrEP_sustainers"/>
-								<entity name="At_risk_not_on_PrEP"/>
-								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
-								<item uid="1"/>
-								<entity name="Frac_persons_newly_at_risk_per_month"/>
-								<item uid="5"/>
-								<item uid="2"/>
-								<item uid="20"/>
-								<entity name="Bronx_PrEP_Target_Population"/>
-								<entity name="PrEP_quitters"/>
 								<entity name="Population_turnover_rate"/>
+								<item uid="2"/>
+								<entity name="Frac_persons_newly_at_risk_per_month"/>
+								<entity name="Fractional_rate_of_initiators_who_quit_per_month"/>
+								<entity name="At_risk_not_on_PrEP"/>
+								<item uid="5"/>
+								<entity name="PrEP_sustainers"/>
+								<item uid="20"/>
+								<item uid="23"/>
+								<item uid="15"/>
+								<entity name="PrEP_quitters"/>
+								<entity name="PrEP_initiators"/>
+								<entity name="Sustainers_permanently_stopping_use_of_PrEP_rate"/>
+								<entity name="Fractional_PrEP_prevalence"/>
+								<item uid="17"/>
+								<entity name="PrEP_prescription_renewal_rate"/>
+								<entity name="Bronx_PrEP_Target_Population"/>
+								<item uid="13"/>
+								<item uid="18"/>
+								<item uid="14"/>
+								<item uid="1"/>
+								<entity name="Seeking_PrEP_Rate"/>
+								<item uid="21"/>
+								<item uid="11"/>
+								<item uid="4"/>
+								<entity name="Avg_time_to_permanently_stop_using_PrEP"/>
+								<entity name="Initiators_quit_rate"/>
+								<item uid="3"/>
 							</isee:visible_list>
 							<isee:highlight_list>
-								<entity name="Sustainers_permanently_stopping_use_of_PrEP_rate"/>
-								<item uid="4"/>
+								<entity name="PrEP_sustainers"/>
+								<item uid="11"/>
 								<item uid="18"/>
 								<entity name="Avg_time_to_permanently_stop_using_PrEP"/>
-								<item uid="11"/>
-								<entity name="PrEP_sustainers"/>
+								<item uid="4"/>
+								<entity name="Sustainers_permanently_stopping_use_of_PrEP_rate"/>
 							</isee:highlight_list>
 						</isee:model_view>
 						<button z_index="1" label="" isee:tooltip="" x="1022" y="62">
